@@ -1,0 +1,7 @@
+add_subdirectory(mbed-libs)
+add_subdirectory(mbed-mods)
+
+set(LIB_HDRS ${LIB_HDRS} PARENT_SCOPE)
+set(LIB_SRCS ${LIB_SRCS} PARENT_SCOPE)
+set(MODULES_HDRS ${MODULES_HDRS} PARENT_SCOPE)
+set(MODULES_SRCS ${MODULES_SRCS} PARENT_SCOPE)

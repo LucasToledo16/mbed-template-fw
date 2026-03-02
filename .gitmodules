@@ -1,0 +1,12 @@
+[submodule "mbed-os"]
+	path = mbed-os
+	url = git@github.com:cnpem/mbed-os-lnls.git
+[submodule "lib/mbed-libs"]
+	path = lib/mbed-libs
+	url = git@gitlab.cnpem.br:GIE/libraries/mbed-libs.git
+[submodule "lib/mbed-mods"]
+	path = lib/mbed-mods
+	url = git@github.com:cnpem/mbed-mods.git
+[submodule "newboot"]
+	path = newboot
+	url = git@gitlab.cnpem.br:GIE/Projects/newboot.git

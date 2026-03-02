@@ -1,0 +1,23 @@
+{
+    "config": {
+        "mbed_app_start": {
+            "help": "Use a custom application start address",
+            "value": "0x00002000",
+            "macro_name": "MBED_APP_START"
+        },
+        "mbed_app_size": {
+            "help": "Use a custom application size",
+            "value": "0x3E000",
+            "macro_name": "MBED_APP_SIZE"
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true,
+            "rtos.main-thread-stack-size": 1600,
+            "lwip.socket-max": 6,
+            "lwip.tcp-socket-max": 6
+        }
+    }
+}
